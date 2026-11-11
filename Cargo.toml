@@ -1,0 +1,14 @@
+[package]
+name = "envkeydiff"
+version = "0.1.0"
+edition = "2021"
+description = "Compare the keys in a .env file with .env.example and report missing or unexpected variables before a deploy."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/PrinceAdvant/envkeydiff"
+homepage = "https://peon.sh/blogs/environment-variables-docker-compose"
+documentation = "https://docs.rs/envkeydiff"
+keywords = ["dotenv", "env", "docker", "deploy", "config"]
+categories = ["command-line-utilities", "config", "development-tools"]
+
+[dependencies]
